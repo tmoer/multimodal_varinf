@@ -28,3 +28,13 @@ bash paper_toy.sh (Sec 4.1)
 bash paper_grid.sh (Sec 4.2)
 bash paper_grid_rl.sh (Sec 4.2)
 ``` 
+
+# Citation
+```
+@article{moerland2017multimodal,
+  title={Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning},
+  author={Moerland, Thomas M and Broekens, Joost and Jonker, Catholijn M},
+  year={2017}
+}
+```
+
