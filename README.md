@@ -17,7 +17,7 @@ git clone https://github.com/tmoer/multimodal_varinf.git
 Example:
 ```sh
 python3 vae_main.py --logdir <logdir> --hpconfig network=1,n_rep=10,var_type='discrete',K=3,N=3,verbose=False
-python3 vae_main.py --logdir <logdir> --hpconfig network=1,n_epochs=75000,n_rep=5,var_type='continuous',z_size=8,n_flow=0,artificial_data=False,use_target_net=True,test_on_policy=True,verbose=False
+python3 vae_grid.py --logdir <logdir> --hpconfig network=1,n_epochs=75000,n_rep=5,var_type='continuous',z_size=8,n_flow=0,artificial_data=False,use_target_net=True,test_on_policy=True,verbose=False
 ```
 For default hyper-parameters, look at the `get_hps()` function in the `vae_grid.py` and `vae_main.py` scripts. 
 
