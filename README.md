@@ -29,7 +29,7 @@ bash paper_grid.sh (Sec 4.2)
 bash paper_grid_rl.sh (Sec 4.2)
 ``` 
 
-# Citation
+## Citation
 ```
 @article{moerland2017multimodal,
   title={Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning},
