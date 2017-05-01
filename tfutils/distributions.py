@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
 """
 Distribution functions 
-From IAF (OpenAI github, https://github.com/openai/iaf/blob/master/tf_utils) and Gumbell-softmax (Jiang github)
+Copyright (c) 2016 openai
+https://github.com/openai/iaf/blob/master/tf_utils
+
+Gumbell-softmax functions
+Copyright (c) 2016 Eric Jang
+https://github.com/ericjang/gumbel-softmax
 """
 import numpy as np
 import tensorflow as tf
@@ -50,7 +55,7 @@ def compute_lowerbound(log_pxz, sum_kl_costs, k=1, alpha=0.5):
     return -elbo
     
     
-###### Gumbell-sotfmax ####### (from E. Jiang)
+###### Gumbell-softmax ####### (from E. Jiang)
 def sample_gumbel(shape, eps=1e-20): 
   """Sample from Gumbel(0, 1)"""
   U = tf.random_uniform(shape,minval=0,maxval=1)
