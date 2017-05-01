@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Tensorflow helper functionality
-Partially from https://github.com/openai/iaf/blob/master/tf_utils/common.py
+Tensorflow helper functionality 
+Partially from: https://github.com/openai/iaf/blob/master/tf_utils/common.py
+Copyright (c) 2016 openai
 """
 import tensorflow as tf
 import numpy as np
