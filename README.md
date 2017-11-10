@@ -31,10 +31,13 @@ bash paper_grid_rl.sh (Sec 4.2)
 
 ## Citation
 ```
-@article{moerland2017multimodal,
-  title={Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning},
-  author={Moerland, Thomas M and Broekens, Joost and Jonker, Catholijn M},
-  year={2017}
+@proceedings{moerland2017learning,
+	author = "Moerland, Thomas M. and Broekens, Joost and Jonker, Catholijn M.",
+	howpublished = "arXiv preprint arXiv:1705.00470",
+	journal = "Scaling Up Reinforcement Learning (SURL) Workshop @ European Machine Learning Conference (ECML)",
+	month = "09",
+	title = "{Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning}",
+	year = "2017"
 }
 ```
 
