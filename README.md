@@ -1,6 +1,6 @@
 # Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning
 
-Code for reproducing key results in the paper [Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning](http://thomasmoerland.nl/wp-content/uploads/2016/12/ecml_paper434.pdf) by Thomas M. Moerland, Joost Broekens and Catholijn M. Jonker. 
+Code for reproducing key results in the paper [Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning](https://arxiv.org/pdf/1705.00470.pdf) by Thomas M. Moerland, Joost Broekens and Catholijn M. Jonker. 
 
 ## Prerequisites
 1. Install recent versions of:
